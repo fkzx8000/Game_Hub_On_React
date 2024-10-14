@@ -19,7 +19,7 @@ interface Props {
 }
 
 const PlatformIconsList = ({ platforms }: Props) => {
-  const iconMap: { [key: string] } = {
+  const iconMap: { [key: string]: React.ElementType } = {
     pc: FaWindows,
     playstation: FaPlaystation,
     xbox: FaXbox,
