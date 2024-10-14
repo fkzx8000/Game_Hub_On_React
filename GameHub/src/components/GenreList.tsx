@@ -1,4 +1,5 @@
 import {
+  Button,
   HStack,
   Image,
   List,
@@ -26,7 +27,9 @@ const GenreList = () => {
               borderRadius={8}
               src={getCroppedImageUrl(gener.image_background)}
             ></Image>
-            <Text fontSize="lg">{gener.name}</Text>
+            <Button variant={"link"} fontSize="lg">
+              {gener.name}
+            </Button>
           </HStack>
         </ListItem>
       ))}
