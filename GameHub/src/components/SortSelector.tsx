@@ -18,7 +18,7 @@ const SortSelector = ({ onSelectPlatform, selectedPlatform }: Props) => {
   return (
     <Menu>
       <MenuButton as={Button} rightIcon={<BsChevronDown />}>
-        order by: sex
+        order by: Relevance
       </MenuButton>{" "}
       <MenuList>
         <MenuItem>Relevance</MenuItem>
